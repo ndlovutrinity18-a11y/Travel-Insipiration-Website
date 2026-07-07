@@ -1,6 +1,8 @@
+import React from "react";
+import './Navbar.css';
 export default function Navbar() {
   return (
-    <>
+    <div className="navbar">
     <ul class="nav justify-content-end">
   <li class="nav-item">
     <a class="nav-link active" aria-current="page" href="#">Active</a>
@@ -15,6 +17,6 @@ export default function Navbar() {
     <a class="nav-link disabled" aria-disabled="true">Disabled</a>
   </li>
 </ul>
-    </>
+    </div>
   )
 }
