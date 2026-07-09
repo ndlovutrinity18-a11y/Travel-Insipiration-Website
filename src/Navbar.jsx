@@ -1,4 +1,4 @@
-import React from "react";
+
 import './Navbar.css';
 import image from './Terra-logo.png';
 export default function Navbar() {

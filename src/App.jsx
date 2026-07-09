@@ -1,10 +1,11 @@
 import Navbar from "./Navbar";
+import Explore from "./Explore";
 export default function App() {
 
   return (
     <>
       <Navbar />
-      <h1>Hello World</h1>
+      <Explore />
     </>
   )
 }
