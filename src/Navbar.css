@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: flex-end;
   padding: 1rem 2rem;
-  background-color: #f8f9fa;
+  background-color: #021102;
 }
 .navbar ul {
   display: flex;
@@ -23,6 +23,6 @@
 }
 a.nav-link {
   text-decoration: none;
-  color: #040901;
+  color: #ebf8f6;
   transition: color 0.3s ease;
 }
