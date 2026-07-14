@@ -1,7 +1,9 @@
 import "./App.css";
+import Navbar from "./Navbar";
 export default function Explore() {
   return (
     <div className="explore">
+      <Navbar />
         <div className="hero">
       <h1>Discover your next destination.</h1>
       <p>Describe your dream trip — Terra finds destinations that match you.</p>
