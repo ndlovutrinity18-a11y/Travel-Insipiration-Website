@@ -14,7 +14,7 @@ export default function Navbar() {
           TERRA.T
         </Link>
       </li>
-      <li className="nav-item dropdown">
+      <li className="nav-items">
         <button 
           className="nav-link dropdown-btn" 
           onClick={() => setIsDropdownOpen(!isDropdownOpen)}
