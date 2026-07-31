@@ -1,28 +1,127 @@
-
-.navbar{
+/* Navbar Container */
+.navbar {
+  background: #ffffff;
+  padding: 18px 70px;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-end;
-  padding: 1rem 2rem;
-  background-color: #c1db66;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  
 }
-.navbar ul {
+
+/* Navigation List */
+.nav-list {
+  width: 100%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   list-style: none;
-  gap: 1.5rem; /* spacing between nav items */
   margin: 0;
   padding: 0;
 }
 
-.navbar .nav-item {
+/* Logo */
+.nav-home {
   display: flex;
+  align-items: center;
+  margin-right: auto;
 }
-.nav-home{
-  margin-right: 600px;
+
+.nav-logo {
+  border-radius: 50%;
+  margin-right: 10px;
 }
-a.nav-link {
+
+.nav-home .nav-link {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #2E8B57;
+}
+
+/* Menu Items */
+.nav-item {
+  margin-left: 30px;
+}
+
+/* Links */
+.nav-link {
   text-decoration: none;
-  color: #ebf8f6;
-  transition: color 0.3s ease;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #2E8B57;
+}
+
+/* Active Link */
+.nav-link.active {
+  color: #2E8B57;
+  position: relative;
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: #2E8B57;
+  border-radius: 20px;
+}
+
+/* Saved Button */
+.btn-outline-light {
+  margin-left: 35px;
+  padding: 10px 22px;
+  border: 2px solid #2E8B57;
+  background: transparent;
+  color: #2E8B57;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  background: #2E8B57;
+  color: white;
+}
+/* Dropdown Menu */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 230px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.15);
+  list-style: none;
+  padding: 10px 0;
+}
+
+.dropdown-link {
+  display: block;
+  padding: 12px 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-link:hover {
+  background: #2E8B57;
+  color: white;
+}
+
+.dropdown-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
 }
