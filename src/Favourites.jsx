@@ -4,7 +4,9 @@ export default function Favourites() {
   return (
     <div>
       <Navbar />
+   
       <h1>Favourites</h1>
+
     </div>
   )
 }
