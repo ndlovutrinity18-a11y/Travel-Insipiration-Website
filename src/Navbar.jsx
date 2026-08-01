@@ -10,7 +10,7 @@ export default function Navbar() {
     <ul className="nav-list">
       <li className="nav-home">
         <img className="nav-logo" src={image} alt="logo" width="30" height="30" />
-        <Link className="nav-link">
+        <Link to="/home" className="nav-link">
           TERRA.T
         </Link>
       </li>
