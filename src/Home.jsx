@@ -7,7 +7,7 @@ export default function Home() {
     <div>
         <Navbar />
       <h1>Describe Your Perfect Trip let Terra.T find it for you!</h1>
-        <Form />
+      <Form />
       <Hero />
     </div>
   );
